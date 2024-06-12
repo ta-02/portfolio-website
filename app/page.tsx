@@ -1,4 +1,5 @@
 import Intro from "@/components/Intro";
+import { ModelViewer } from "@/components/Model-Viewer";
 
 export default function Home() {
   return (
