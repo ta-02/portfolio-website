@@ -21,7 +21,6 @@ const ThemeContextProvider: React.FC<ThemeContextProviderProps> = ({
   const [theme, setTheme] = useState<Theme>("light");
 
   const toggleTheme = () => {
-    console.log("Toggling theme from", theme);
     if (theme === "light") {
       setTheme("dark");
       window.localStorage.setItem("theme", "dark");
