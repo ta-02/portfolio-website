@@ -18,7 +18,7 @@ const Intro = () => {
     <section
       ref={ref}
       id="Home"
-      className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
+      className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[200rem]"
     >
       <div className="flex items-center justify-center">
         <div className="relative">
@@ -35,9 +35,9 @@ const Intro = () => {
               alt="Talal memoji"
               width="192"
               height="192"
-              quality="95"
+              quality="100"
               priority={true}
-              className="h-24 w-24 rounded-full object-cover"
+              className="h-24 w-24 rounded-full object-cover shadow-xl"
             />
           </motion.div>
           <motion.span
@@ -76,7 +76,7 @@ const Intro = () => {
       >
         <Link
           href="#contact"
-          className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
+          className="group bg-neutral-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-neutral-900 active:scale-105 transition"
           onClick={() => {
             setActiveSection("Contact");
             setTimeOfLastClick(Date.now());
