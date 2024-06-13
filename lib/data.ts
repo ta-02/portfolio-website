@@ -1,10 +1,35 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
+import {
+  FaHtml5,
+  FaCss3Alt,
+  FaJsSquare,
+  FaReact,
+  FaNodeJs,
+  FaGitAlt,
+  FaJava,
+} from "react-icons/fa";
+import {
+  SiTypescript,
+  SiNextdotjs,
+  SiTailwindcss,
+  SiMongodb,
+  SiExpress,
+  SiPython,
+  SiFramer,
+  SiC,
+  SiCplusplus,
+  SiPandas,
+  SiSelenium,
+  SiMicrosoft,
+  SiBun,
+  SiPostgresql,
+} from "react-icons/si";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import { FaGolang } from "react-icons/fa6";
 
 export const links = [
   {
@@ -35,8 +60,8 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Wilfrid Laurier University",
+    location: "Waterloo, Ontario",
     description:
       "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
     icon: React.createElement(LuGraduationCap),
@@ -85,23 +110,33 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+  // Frontend Technologies
+  { skill: "HTML", icon: FaHtml5 },
+  { skill: "CSS", icon: FaCss3Alt },
+  { skill: "JavaScript", icon: FaJsSquare },
+  { skill: "TypeScript", icon: SiTypescript },
+  { skill: "React", icon: FaReact },
+  { skill: "Next.js", icon: SiNextdotjs },
+  { skill: "Tailwind", icon: SiTailwindcss },
+  { skill: "Framer Motion", icon: SiFramer },
+  // Backend Technologies
+  { skill: "Node.js", icon: FaNodeJs },
+  { skill: "Bun", icon: SiBun },
+  { skill: "Express", icon: SiExpress },
+  // Database
+  { skill: "MongoDB", icon: SiMongodb },
+  { skill: "PostgreSQL", icon: SiPostgresql },
+  // Version Control
+  { skill: "Git", icon: FaGitAlt },
+  // Programming Languages
+  { skill: "Go", icon: FaGolang },
+  { skill: "Python", icon: SiPython },
+  { skill: "Java", icon: FaJava },
+  { skill: "C", icon: SiC },
+  { skill: "C++", icon: SiCplusplus },
+  // Libraries/Frameworks
+  { skill: "Pandas", icon: SiPandas },
+  // Tools
+  { skill: "Selenium", icon: SiSelenium },
+  { skill: "VBA", icon: SiMicrosoft },
 ] as const;
