@@ -18,29 +18,27 @@ const About = () => {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
+        Back in high school, after completing my first computer science course,
+        I fell in love with the field. Connecting the pieces together about how
+        my favorite websites and games could be built transformed the once
+        unknown world of creating applications into a visible and magical
+        experience. I am eager to apply both my technical understanding of code
+        and my business expertise to create apps that innovate, solve real
+        problems, and hopefully give someone that "wow, I wonder how this is
+        made" feeling that I first experienced.{" "}
+      </p>
+      <p className="mb-3">
+        I am excited to learn new technologies that push that boundries of what
+        is possible and how it is possible. My core stack includes{" "}
         <span className="font-medium">
           React, Next.js, Node.js, and MongoDB
         </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        .{" "}
       </p>
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+        <span className="italic">When I'm not coding</span>, you will probably
+        catch me configuring Neovim or my dotfiles, rock climbing, listening to
+        music, or hunting for the next steal on vintage clothes.
       </p>
     </motion.section>
   );
