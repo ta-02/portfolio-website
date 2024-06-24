@@ -1,6 +1,4 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { LuGraduationCap } from "react-icons/lu";
 import {
   FaHtml5,
   FaCss3Alt,
@@ -9,6 +7,7 @@ import {
   FaNodeJs,
   FaGitAlt,
   FaJava,
+  FaPython,
 } from "react-icons/fa";
 import {
   SiTypescript,
@@ -23,13 +22,13 @@ import {
   SiPandas,
   SiSelenium,
   SiMicrosoft,
-  SiBun,
   SiPostgresql,
 } from "react-icons/si";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 import { FaGolang } from "react-icons/fa6";
+import { IoSchoolOutline } from "react-icons/io5";
 
 export const links = [
   {
@@ -60,28 +59,31 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Wilfrid Laurier University",
-    location: "Waterloo, Ontario",
+    title: "Software Developer",
+    company: "Yamaha Motors Canada",
+    location: "Toronto, ON",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+      "Worked under the accesories team in creating data validaton applications and internal utility tools",
+    icon: React.createElement(FaPython),
+    date: "2022 May - 2022 Aug",
   },
   {
     title: "Full-Stack Developer",
-    location: "Houston, TX",
+    company: "Kohinoor Fashion Studio",
+    location: "Toronto, Ontario",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Worked as a Full-Stack web developer in charge of making a web-app for displaying businesses products and information",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2022 Jan - 2022 Apr",
+  },
+  {
+    title: "BBA & CS Degree",
+    company: "Wilfrid Laurier University",
+    location: "Waterloo, Ontario",
+    description:
+      "Currently pursuing a Double Degree in Computer Science and Business",
+    icon: React.createElement(IoSchoolOutline),
+    date: "2022-present",
   },
 ] as const;
 
@@ -121,7 +123,6 @@ export const skillsData = [
   { skill: "Framer Motion", icon: SiFramer },
   // Backend Technologies
   { skill: "Node.js", icon: FaNodeJs },
-  { skill: "Bun", icon: SiBun },
   { skill: "Express", icon: SiExpress },
   // Database
   { skill: "MongoDB", icon: SiMongodb },
