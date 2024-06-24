@@ -83,7 +83,7 @@ export const experiencesData = [
     description:
       "Currently pursuing a Double Degree in Computer Science and Business",
     icon: React.createElement(IoSchoolOutline),
-    date: "2022-present",
+    date: "2022-Present",
   },
 ] as const;
 
