@@ -24,7 +24,7 @@ import {
   SiMicrosoft,
   SiPostgresql,
 } from "react-icons/si";
-import corpcommentImg from "@/public/corpcomment.png";
+import phonebookApp from "@/public/phonebookApp.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 import { FaGolang } from "react-icons/fa6";
@@ -89,11 +89,11 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Phonebook App",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "Simple phonebook that stores names and correspoding numbers with features like data validation and updating exisiting records",
+    tags: ["React", "Node", "Express", "MongoDB", "Tailwind", "Chakra UI"],
+    imageUrl: phonebookApp,
   },
   {
     title: "rmtDev",
