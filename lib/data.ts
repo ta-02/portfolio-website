@@ -91,23 +91,17 @@ export const projectsData = [
   {
     title: "Phonebook App",
     description:
-      "Simple phonebook that stores names and correspoding numbers with features like data validation and updating exisiting records",
+      "Phonebook that stores names and correspoding numbers with features like data validation and updating exisiting records",
     tags: ["React", "Node", "Express", "MongoDB", "Tailwind", "Chakra UI"],
     imageUrl: phonebookApp,
+    ghLink: "https://github.com/ta-02/phonebookApp",
   },
   {
-    title: "rmtDev",
-    description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
-  },
-  {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+    title: "Portfolio Webiste",
+    description: "",
+    tags: ["Next.js", "React", "TypeScript", "Tailwind", "Framer Motion"],
+    imageUrl: phonebookApp,
+    ghLink: "https://github.com/ta-02/portfolio-website",
   },
 ] as const;
 
