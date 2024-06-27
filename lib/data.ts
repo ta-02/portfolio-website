@@ -23,6 +23,7 @@ import {
   SiSelenium,
   SiMicrosoft,
   SiPostgresql,
+  SiDrizzle,
 } from "react-icons/si";
 import phonebookAppImg from "@/public/phonebookApp.png";
 import portfolioImg from "@/public/portfolio-website.png";
@@ -82,7 +83,7 @@ export const experiencesData = [
     description:
       "Currently pursuing a Double Degree in Computer Science and Business",
     icon: React.createElement(IoSchoolOutline),
-    date: "2022-Present",
+    date: "2022 - Present",
   },
 ] as const;
 
@@ -119,6 +120,7 @@ export const skillsData = [
   { skill: "Node.js", icon: FaNodeJs },
   { skill: "Express", icon: SiExpress },
   // Database
+  { skill: "Drizzle", icon: SiDrizzle },
   { skill: "MongoDB", icon: SiMongodb },
   { skill: "PostgreSQL", icon: SiPostgresql },
   // Version Control

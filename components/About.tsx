@@ -31,7 +31,7 @@ const About = () => {
         I am excited to learn new technologies that push that boundries of what
         is possible and how it is possible. My core stack includes{" "}
         <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
+          Next.js, React, Drizzle, and Postgres
         </span>
         .{" "}
       </p>
