@@ -24,9 +24,8 @@ import {
   SiMicrosoft,
   SiPostgresql,
 } from "react-icons/si";
-import phonebookApp from "@/public/phonebookApp.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import phonebookAppImg from "@/public/phonebookApp.png";
+import portfolioImg from "@/public/portfolio-website.png";
 import { FaGolang } from "react-icons/fa6";
 import { IoSchoolOutline } from "react-icons/io5";
 
@@ -93,14 +92,15 @@ export const projectsData = [
     description:
       "Phonebook that stores names and correspoding numbers with features like data validation and updating exisiting records",
     tags: ["React", "Node", "Express", "MongoDB", "Tailwind", "Chakra UI"],
-    imageUrl: phonebookApp,
+    imageUrl: phonebookAppImg,
     ghLink: "https://github.com/ta-02/phonebookApp",
   },
   {
     title: "Portfolio Webiste",
-    description: "",
+    description:
+      "Portfolio built with modern technologies and patterns showcasing my skills and how to contact me ",
     tags: ["Next.js", "React", "TypeScript", "Tailwind", "Framer Motion"],
-    imageUrl: phonebookApp,
+    imageUrl: portfolioImg,
     ghLink: "https://github.com/ta-02/portfolio-website",
   },
 ] as const;
