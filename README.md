@@ -32,3 +32,7 @@ Portfolio site built with NextJS, React, Typescript, Tailwind, and Framer motion
    npm run dev or npm start
    ```
    Now go to http://localhost:3000 to see the app.
+
+## Acknowledgements
+
+Inspration taken from this [repository](https://github.com/ByteGrad/portfolio-website)
