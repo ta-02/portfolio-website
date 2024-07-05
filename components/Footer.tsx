@@ -6,8 +6,8 @@ const Footer = () => {
       </small>
       <p className="text-xs">
         <span className="font-semibold">About this website:</span> built with
-        React & Next.js (App Router & Server Actions), TypeScript, Tailwind CSS,
-        Framer Motion, React Email & Resend, Vercel hosting.
+        React & Next.js, TypeScript, Tailwind CSS, Framer Motion, React Email &
+        Resend.
       </p>
     </footer>
   );

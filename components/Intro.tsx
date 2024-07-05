@@ -64,8 +64,8 @@ const Intro = () => {
         <span className="font-bold">
           second year CS & BBA student at Wilfrid Laurier.
         </span>{" "}
-        I enjoy building <span className="italic">sites & apps</span>. My focus
-        is <span className="underline">Web development</span>.
+        I enjoy building <span className="italic">sites, apps & cli tools</span>
+        . My focus is <span className="underline">Web development</span>.
       </motion.h1>
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"

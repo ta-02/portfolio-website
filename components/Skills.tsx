@@ -5,7 +5,6 @@ import SectionHeading from "./SectionHeading";
 import { skillsData } from "@/lib/data";
 import useSectionInView from "@/lib/hooks";
 import { motion } from "framer-motion";
-import { FaGolang } from "react-icons/fa6";
 
 const fadeInAnimationVariants = {
   initial: {
